@@ -88,7 +88,7 @@ reverse();
 // ---------------------
 
 function findLongestWord(words){
-    //...reduce
+    
 }
 
 // ---------------------
@@ -96,7 +96,7 @@ function findLongestWord(words){
 // ---------------------
 
 function filterLongWords(words, i){
-    //...filter
+    //...
 }
 
 // ---------------------
