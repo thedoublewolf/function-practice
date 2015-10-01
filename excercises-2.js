@@ -4,24 +4,17 @@
 // ---------------------
 
 function max(number1, number2){
-    var number1 = 25;
-    var number2 = 75;
     	if (number1 > number2)
     		return number1;
     	else 
     		return number2;
 };
 
-max();
-
 // ---------------------
 // Define a function maxOfThree() that takes three numbers as arguments and returns the largest of them.
 // ---------------------
 
 function maxOfThree(number1, number2, number3){
-    var number1 = 25;
-    var number2 = 50;
-    var number3 = 75;
         if ((number1 > number2) && (number1 > number3))
         	return number1;
         else if ((number2 > number1) && (number2 > number3))
@@ -30,21 +23,16 @@ function maxOfThree(number1, number2, number3){
         	return number3;
 };
 
-maxOfThree();
-
 // ---------------------
 // Write a function that takes a character (i.e. a string of length 1) and returns true if it is a vowel, false otherwise.
 // ---------------------
 
 function isVowel(char){
-   var char = "z";
        if ((char) === ("a") || (char) === ("e") || (char) === ("i") || (char) === ("o") || (char) === ("u"))
        	return true;
        else 
        	return false;
 };
-
-isVowel();
 
 // ---------------------
 // Write a function translate() that will translate a text into "rÃ¶varsprÃ¥ket". 
@@ -53,7 +41,6 @@ isVowel();
 // ---------------------
 
 function rovarspraket(phrase){
-    var phrase = "rovarspraket";
     var phraseSplit = phrase.split('');
     var translateSplit = phraseSplit.map(function(consonant){
         if ((consonant) === ("b") || (consonant) === ("c") || (consonant) === ("d") || (consonant) === ("f") ||
@@ -69,44 +56,35 @@ function rovarspraket(phrase){
     return translate;
 };
 
-rovarspraket();
-
 // ---------------------
 // Define a function reverse() that computes the reversal of a string. 
 // For example, reverse("jag testar") should return the string "ratset gaj".
 // ---------------------
 
-function reverse(){
-    var string = "This sentence is reversed!";
+function reverse(string){
     return string.split('').reverse().join('');
 };
-
-reverse();
 
 // ---------------------
 // Write a function findLongestWord() that takes an array of words and returns the length of the longest one.
 // ---------------------
 
 function findLongestWord(words){
-    var longWords = ["antidisestablishmentarianism", "subdermatoglyphic"];
-    var wordOne = "antidisestablishmentarianism";
-    var wordTwo = "subdermatoglyphic";
+
     if ((wordOne.length) > (wordTwo.length))
         return wordOne.length;
     else
         return wordTwo.length;
 };
 
-findLongestWord();  //WORKS BUT NOT WHAT I THINK YOU WANT TO SEE. --JONNY
+//WORKS BUT NOT WHAT I THINK YOU WANT TO SEE. --JONNY
 
 // ---------------------
 // Write a function filterLongWords() that takes an array of words and an integer i and returns the array of words that are longer than i.
 // ---------------------
 
 function filterLongWords(words, i){
-    var words = ["antidisestablishmentarianism", "subdermatoglyphic"];
-    var wordOne = "antidisestablishmentarianism";
-    var wordTwo = "subdermatoglyphic";
+ 
     var i = 25;
     if ((wordOne.length) > (i))
         return wordOne;
@@ -122,6 +100,5 @@ filterLongWords();  //KIND OF THE ANSWER BUT NOT REALLY. --JONNY
 // ---------------------
 
 function charFreq(string){
-    var string = "Antidisestablishmentarianism is a very long word.";
-    var myObject = {objectName: "Frequency"};
+
 }

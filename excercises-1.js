@@ -25,37 +25,27 @@
 // parameters and returns the sum of those 2 numbers.
 
 function sum(parameter1, parameter2){
-	var parameter1 = 25;
-	var parameter2 = 75;
 	return parameter1 + parameter2;
 };
-
-sum();
 
 // Q2
 // Write a function named `avg` that takes 3 parameters
 // and returns the average of those 3 numbers.
 
 function avg(parameter1, parameter2, parameter3){
-	var parameter1 = 25;
-	var parameter2 = 50;
-	var parameter3 = 89;
 	var sum = parameter1 + parameter2 + parameter3;
 	return Number(sum) / 3;
 };
 
-avg();
 
 // Q3
 // Write a function called `getLength` that takes one
 // parameter (a string) and returns the length
 
 function getLength(parameter){
-	var parameter = "This is a string";
 	return parameter.length;
 };
 
-getLength();
 
 // Q4
 // Write a function called `greaterThan` that takes
@@ -64,15 +54,11 @@ getLength();
 // the function should return `false`.
 
 function greaterThan(parameter1, parameter2){
-	var parameter1 = 25;
-	var parameter2 = 75;
 		if (parameter1 > parameter2)
 			return 'true';
 		else 
 			return 'false';
 };
-
-greaterThan();
 
 // Q5
 // Write a function called `greet` that takes a
@@ -81,11 +67,9 @@ greaterThan();
 // is the parameter that was passed in.
 
 function greet(parameter){
-	var parameter = "Jonny";
 	return "Hello, " + parameter + "!";
 };
 
-greet();
 
 // Q6
 // Write a function called `madlib` that takes
@@ -99,14 +83,9 @@ greet();
 // sentence: "quick brown fox jumps over the fence"
 
 function madlib(parameter1, parameter2, parameter3, parameter4){
-	var parameter1 = "Madlib";
-	var parameter2 = "mad";
-	var parameter3 = "beats";
-	var parameter4 = "for real";
 	return parameter1 + " makes " + parameter2 + " stupid " + parameter3 + " " + parameter4 + ", yo!";
 };
 
-madlib();
 
 ///////////////////////////////////////////////////////
 ///////////////////////////////////////////////////////
