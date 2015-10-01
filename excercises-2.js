@@ -78,32 +78,23 @@ function findLongestWord(words){
             return winner.length;
 };
 
-
-
-['apple', 'banana', 'orange']
-
-
 // ---------------------
 // Write a function filterLongWords() that takes an array of words and an integer i and returns the array of words that are longer than i.
 // ---------------------
 
 function filterLongWords(words, i){
-
-    var winner = '';
-    var i = '';
-    words.forEach(function(word){
-        if (word.length > winner.length)
-            winner = word;
-    });
-    word.filter(function(longWord){
-        if (longWord.length > i.length)
-            
+    i.filter(function(size){
+        if (size.length < words.length)
+        return words.length;
     });
 
+    words.filter(function(longWord){
+        return longWord.length > size.length;
+    });
 };
 
 
-['apple', 'banana', 'orange'], 'cat'
+filterLongWords(['apple', 'banana', 'orange'], 'cat');
 
 // ---------------------
 // Write a function charFreq() that takes a string and builds a frequency listing of the characters contained in it. 
