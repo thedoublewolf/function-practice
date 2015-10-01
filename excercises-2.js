@@ -70,9 +70,17 @@ function reverse(string){
 // ---------------------
 
 function findLongestWord(words){
-
-
+    var winner = '';
+        words.forEach(function(word){
+            if (word.length > winner.length)
+                winner = word;
+        });
+            return winner.length;
 };
+
+
+
+['apple', 'banana', 'orange']
 
 
 // ---------------------
@@ -81,7 +89,21 @@ function findLongestWord(words){
 
 function filterLongWords(words, i){
 
+    var winner = '';
+    var i = '';
+    words.forEach(function(word){
+        if (word.length > winner.length)
+            winner = word;
+    });
+    word.filter(function(longWord){
+        if (longWord.length > i.length)
+            
+    });
+
 };
+
+
+['apple', 'banana', 'orange'], 'cat'
 
 // ---------------------
 // Write a function charFreq() that takes a string and builds a frequency listing of the characters contained in it. 
