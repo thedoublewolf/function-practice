@@ -10,7 +10,7 @@ function max(number1, number2){
     		return number1;
     	else 
     		return number2;
-}
+};
 
 max();
 
@@ -28,7 +28,7 @@ function maxOfThree(number1, number2, number3){
         	return number2;
         else if ((number3 > number1) && (number3 > number2))
         	return number3;
-}
+};
 
 maxOfThree();
 
@@ -42,7 +42,7 @@ function isVowel(char){
        	return true;
        else 
        	return false;
-}
+};
 
 isVowel();
 
@@ -67,7 +67,7 @@ function rovarspraket(phrase){
     });
     var translate = translateSplit.join('');
     return translate;
-}
+};
 
 rovarspraket();
 
@@ -79,7 +79,7 @@ rovarspraket();
 function reverse(){
     var string = "This sentence is reversed!";
     return string.split('').reverse().join('');
-}
+};
 
 reverse();
 
@@ -95,7 +95,7 @@ function findLongestWord(words){
         return wordOne.length;
     else
         return wordTwo.length;
-}
+};
 
 findLongestWord();  //WORKS BUT NOT WHAT I THINK YOU WANT TO SEE. --JONNY
 
@@ -112,7 +112,7 @@ function filterLongWords(words, i){
         return wordOne;
     else
         return wordTwo;
-}
+};
 
 filterLongWords();  //KIND OF THE ANSWER BUT NOT REALLY. --JONNY
 
@@ -122,5 +122,6 @@ filterLongWords();  //KIND OF THE ANSWER BUT NOT REALLY. --JONNY
 // ---------------------
 
 function charFreq(string){
-    //...
+    var string = "Antidisestablishmentarianism is a very long word.";
+    var myObject = {objectName: "Frequency"};
 }
