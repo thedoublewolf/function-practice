@@ -71,28 +71,17 @@ function reverse(string){
 
 function findLongestWord(words){
 
-    if ((wordOne.length) > (wordTwo.length))
-        return wordOne.length;
-    else
-        return wordTwo.length;
+
 };
 
-//WORKS BUT NOT WHAT I THINK YOU WANT TO SEE. --JONNY
 
 // ---------------------
 // Write a function filterLongWords() that takes an array of words and an integer i and returns the array of words that are longer than i.
 // ---------------------
 
 function filterLongWords(words, i){
- 
-    var i = 25;
-    if ((wordOne.length) > (i))
-        return wordOne;
-    else
-        return wordTwo;
-};
 
-filterLongWords();  //KIND OF THE ANSWER BUT NOT REALLY. --JONNY
+};
 
 // ---------------------
 // Write a function charFreq() that takes a string and builds a frequency listing of the characters contained in it. 
