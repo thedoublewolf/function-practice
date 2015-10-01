@@ -28,7 +28,7 @@ function sum(parameter1, parameter2){
 	var parameter1 = 25;
 	var parameter2 = 75;
 	return parameter1 + parameter2;
-}
+};
 
 sum();
 
@@ -42,7 +42,7 @@ function avg(parameter1, parameter2, parameter3){
 	var parameter3 = 89;
 	var sum = parameter1 + parameter2 + parameter3;
 	return Number(sum) / 3;
-}
+};
 
 avg();
 
@@ -53,7 +53,7 @@ avg();
 function getLength(parameter){
 	var parameter = "This is a string";
 	return parameter.length;
-}
+};
 
 getLength();
 
@@ -70,7 +70,7 @@ function greaterThan(parameter1, parameter2){
 			return 'true';
 		else 
 			return 'false';
-}
+};
 
 greaterThan();
 
@@ -83,7 +83,7 @@ greaterThan();
 function greet(parameter){
 	var parameter = "Jonny";
 	return "Hello, " + parameter + "!";
-}
+};
 
 greet();
 
@@ -104,23 +104,9 @@ function madlib(parameter1, parameter2, parameter3, parameter4){
 	var parameter3 = "beats";
 	var parameter4 = "for real";
 	return parameter1 + " makes " + parameter2 + " stupid " + parameter3 + " " + parameter4 + ", yo!";
-}
+};
 
 madlib();
 
 ///////////////////////////////////////////////////////
 ///////////////////////////////////////////////////////
-
-var letters = ["a", "b", "c"];
-
-letters.reduce(function(finalString, currentLetter) {
-	finalString = finalString + currentLetter;
-	return finalString;
-});
-
-// returns "abc"
-
-
-
-
-
