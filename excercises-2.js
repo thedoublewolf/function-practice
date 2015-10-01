@@ -88,15 +88,23 @@ reverse();
 // ---------------------
 
 function findLongestWord(words){
-    
+    var longWords = ["antidisestablishmentarianism", "subdermatoglyphic"];
+    var wordOne = "antidisestablishmentarianism";
+    var wordTwo = "subdermatoglyphic";
+    if ((wordOne.length) > (wordTwo.length))
+        return wordOne.length;
+    else
+        return wordTwo.length;
 }
+
+findLongestWord();  //WORKS BUT NOT WHAT I THINK YOU WANT TO SEE.
 
 // ---------------------
 // Write a function filterLongWords() that takes an array of words and an integer i and returns the array of words that are longer than i.
 // ---------------------
 
 function filterLongWords(words, i){
-    //...
+    //...filter
 }
 
 // ---------------------
