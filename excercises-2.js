@@ -82,20 +82,18 @@ function findLongestWord(words){
 // Write a function filterLongWords() that takes an array of words and an integer i and returns the array of words that are longer than i.
 // ---------------------
 
-var words = ['pear', 'banana', 'orange'];
-var i = 'apple';
-
+// a blank array to push words into that are longer than integer i.
+var longWord = [];
+function filterLongWords(words, i){
+// filter words that are longer than integer i and push them into longWord array.
     words.filter(function(word) {
         if (word.length > i.length)
-            return word.length;
+            longWord.push(word);
     });
+    return longWord;
+};
 
-
-
-// function filterLongWords(words, i){
-
-// };
-
+filterLongWords(['pear', 'banana', 'orange'], 'apple');
 
 // ---------------------
 // Write a function charFreq() that takes a string and builds a frequency listing of the characters contained in it. 
@@ -105,8 +103,8 @@ var i = 'apple';
 // create blank object
 var obj = {};
 function charFreq(string){
-// split string into seperate letters and sort them in alphabetical order
-  var eachLetter = string.split("").sort("");
+// declare a variable that splits string into seperate letters and sort them in alphabetical order
+  var eachLetter = string.split('').sort('');
 // map each letter and look for every instance of each letter until there's none left
   eachLetter.map(function(letter) {
 // looks for letter in object
